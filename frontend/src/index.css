@@ -1,0 +1,8 @@
+/* Styles for screens with a maximum width of 768 pixels */
+@media screen and (max-width: 768px) {
+    /* Add your responsive styles here */
+    .container {
+      width: 100%;
+      padding: 10px;
+    }
+  }

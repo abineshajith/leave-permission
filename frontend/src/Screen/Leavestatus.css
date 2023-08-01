@@ -1,0 +1,55 @@
+.leavestatus-container {
+  background-image: url("../assets/leavestatus.jpg");
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-left: 200px;
+  background-position: center;
+  background-size: cover; /* Added property */
+  display: flex;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-top: 50px; /* Adjust this value to match your header navbar height */
+  margin: 0;
+  z-index: -1; /* Push the background image behind the content */
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+  
+  .leavestatus-content {
+    text-align: center;
+  }
+  
+  .leavestatus-heading {
+    margin-bottom: 1rem;
+    color: aliceblue;
+  }
+  
+  .leavestatus-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .leavestatus-table th,
+  .leavestatus-table td {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+  }
+  .leavestatus-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .leavestatus-table tbody tr:nth-child(odd) {
+    background-color: #eaeaea;
+  }
+  .leavestatus-headingcolumn{
+    background-color: aliceblue;
+  }
+ 

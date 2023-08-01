@@ -1,0 +1,4 @@
+.datepicker-red .react-datepicker__day--disabled {
+  color: red;
+  cursor: not-allowed;
+}

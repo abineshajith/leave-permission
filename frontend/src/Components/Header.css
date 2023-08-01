@@ -1,0 +1,30 @@
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+  }
+  
+  /* Customize the styling of the header as per your requirements */
+  .fixed-header .navbar {
+    background-color: #333;
+  }
+  
+  .fixed-header .navbar-brand {
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .fixed-header .nav-link,
+  .fixed-header .dropdown-item {
+    color: #fff;
+  }
+  
+  .fixed-header .dropdown-menu {
+    background-color: #333;
+  }
+  
+  .fixed-header .dropdown-menu .dropdown-item:hover {
+    background-color: #555;
+  }

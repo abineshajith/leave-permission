@@ -1,0 +1,36 @@
+.profile-content {
+    background-image: url("../assets/profile.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100vh;
+    margin-left: 200px;
+    background-position: center;
+    background-size: cover; /* Added property */
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: 50px; /* Adjust this value to match your header navbar height */
+    margin: 0;
+    z-index: -1; /* Push the background image behind the content */
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .profile-details {
+    margin-top: 20px;
+  }
+  
+  .profile-details h2 {
+    margin-bottom: 10px;
+  }
